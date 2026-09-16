@@ -1,6 +1,6 @@
 <h1 align="center">SLBot</h1>
 <p>Runs on Vanilla JS/HTML/CSS</p>
-<p>A ready to use version can be accessed at the HackClub slack./p>
+<p>A ready to use version can be accessed at the HackClub slack.</p>
 
 ### Features/Commands
 - /slbot-temperature [city name]  Shows the current temperature of a city
