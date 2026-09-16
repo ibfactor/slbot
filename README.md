@@ -9,7 +9,7 @@
 ### Self-Hosting:
 Clone the repository
 ```
-git clone https://github.com/ibfactor/midl.git && cd midl
+git clone https://github.com/ibfactor/slbot.git && cd slbot
 ```
 Setup the .env file
 ```
