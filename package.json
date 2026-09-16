@@ -11,6 +11,7 @@
   "description": "",
   "dependencies": {
     "@slack/bolt": "^5.1.0",
-    "dotenv": "^17.4.2"
+    "dotenv": "^17.4.2",
+    "suncalc": "^2.0.2"
   }
 }
