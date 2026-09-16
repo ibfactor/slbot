@@ -3,9 +3,9 @@
 <p>A ready to use version can be accessed at the HackClub slack.</p>
 
 ### Features/Commands
-- /slbot-temperature [city name]  Shows the current temperature of a city
-- /slbot-humidity [city name]     Shows the humidity of a city
-- /slbot-moon                     Shows the current moon phase
+- `/slbot-temperature [city name]`  Shows the current temperature of a city
+- `/slbot-humidity [city name]`     Shows the humidity of a city
+- `/slbot-moon`                     Shows the current moon phase
 ### Self-Hosting:
 Clone the repository
 ```
