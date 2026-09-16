@@ -18,7 +18,8 @@ const app = new App({
   socketMode: true
 });
 
-app.command("/slbot-temperature", async ({ command, respond }) => {
+app.command("/slbot-temperature", async ({ command, ack, respond }) => {
+  await ack();
 
   const city = await geocoding(command.text.trim());
 
@@ -35,7 +36,9 @@ app.command("/slbot-temperature", async ({ command, respond }) => {
   await respond({ text: `City: ${city.name}\nCurrent Temperature: ${data.current.temperature_2m}` });
 });
 
-app.command("/slbot-humidity", async ({ command, respond }) => {
+app.command("/slbot-humidity", async ({ command, ack, respond }) => {
+  await ack();
+
   const city = await geocoding(command.text.trim());
 
   const response = await fetch(
@@ -52,7 +55,9 @@ app.command("/slbot-humidity", async ({ command, respond }) => {
 });
 
 
-app.command("/slbot-moon", async ({ command, respond }) => {
+app.command("/slbot-moon", async ({ command, ack, respond }) => {
+  await ack();
+  
   const times = SunCalc.getMoonIllumination(new Date());
 
   const phase = times.phase;
