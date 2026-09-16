@@ -15,7 +15,7 @@ Setup the .env file
 ```
 touch .env
 ```
-and then declare two variables
+and then declare the two environment variables (in the .env)
 ```
 SLACK_APP_TOKEN=xapp-...
 SLACK_BOT_TOKEN=xoxb-...
